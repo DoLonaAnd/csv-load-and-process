@@ -32,6 +32,6 @@ let path = "./text.csv",
 ---
 ## Link
 
-### ・<a href = "https://twitter.com/Android_g_o_d">Titter</a>
+### ・<a href = "https://twitter.com/Android_g_o_d">Twitter</a>
 
 ### ・<a href = "https://www.npmjs.com/package/csv-load-and-process">npm</a>
