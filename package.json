@@ -1,6 +1,6 @@
 {
     "name": "csv-load-and-process",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "bin": {
         "csv-load-and-process": "index.js"
     },
