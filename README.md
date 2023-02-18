@@ -22,7 +22,7 @@ let path = "./text.csv",
 /*
  * csvArray = [
  *  [csv,csv], //line
-   [csv,csv,csv], //line
+ *  [csv,csv,csv], //line
  *  [csv]  //line
  * ];
  */
