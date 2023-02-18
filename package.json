@@ -1,0 +1,18 @@
+{
+    "name": "csv-load-and-process",
+    "version": "1.0.0",
+    "bin": {
+        "csv-load-and-process": "index.js"
+    },
+    "description": "Loading and processing csv.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DoLonaAnd/csv-load-and-process.git"
+    },
+    "author": "DoLonaAnd",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DoLonaAnd/csv-load-and-process/issues"
+    },
+    "homepage": "https://github.com/DoLonaAnd/csv-load-and-process#readme"
+}
