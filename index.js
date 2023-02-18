@@ -32,7 +32,9 @@ function getProcessedCSV(str) {
             }
         }
         line.push(lines[i].substr(start, count));
-        arrayCSV.push(line);
+        if (line != "") {
+            arrayCSV.push(line);
+        }
     }
     return arrayCSV;
 }
@@ -40,6 +42,7 @@ function getProcessedCSV(str) {
 function getCSV(path) {
     return getProcessedCSV(getLoadingCSV(path));
 }
+
 
 module.exports = getLoadingCSV, getProcessedCSV, getCSV;
 module.exports.default = getLoadingCSV, getProcessedCSV, getCSV;

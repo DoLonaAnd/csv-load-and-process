@@ -1,0 +1,4 @@
+ver.1.0.0: Origin.
+ver.1.0.1: Add README.md
+ver.1.0.2: Modify getProcessedCSV() method.
+           -> can cut empty line.
