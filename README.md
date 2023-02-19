@@ -13,17 +13,27 @@ Made by DoLonaAnd.
 
 ```js
 // import
-const getCSV = require('csv-load-and-process');
+const clap = require('csv-load-and-process');
 
 // use
-let path = "./text.csv",
-    csvArray = getCSV(path);
+// read
+let path = "./text_1.csv",
+    csvArray = clap.getCSV(path);
+// write
+let path = "./text_2.csv",
+    opt = 0 or 1;
+clap.setCSV(path, csvArray, opt);
+    /* opt == 0 -> overwrite or write new.
+     *             This is default.
+     *             You have not to set opt.
+     * opt == 1 -> postscript.
+     */
 
 /*
  * csvArray = [
- *  [csv,csv], //line
- *  [csv,csv,csv], //line
- *  [csv]  //line
+ *  [txt,txt], //line
+ *  [txt,txt,txt], //line
+ *  [txt]  //line
  * ];
  */
 
