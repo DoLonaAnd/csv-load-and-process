@@ -52,7 +52,7 @@ function writeCSV(path, str, opt = 0) {
             break;
         case 1:
             // 追記
-            fs.appendFileSync(path, "¥n" + str);
+            fs.appendFileSync(path, "\n" + str);
             break;
         default:
             console.log("\u001b[31mError: Third option is 0 or 1!!\u001b[0m");
