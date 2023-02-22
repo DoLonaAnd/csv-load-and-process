@@ -7,3 +7,4 @@ ver.2.0.0: Modify getProcessedCSV() method.
 ver.3.0.0: Change rules and add writing method and add testfile.
            ß version.
 ver.3.0.1: finished test.
+ver.3.0.2: Modify writeCSV(,,1) method.

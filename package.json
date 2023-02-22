@@ -9,7 +9,12 @@
         "type": "git",
         "url": "git+https://github.com/DoLonaAnd/csv-load-and-process.git"
     },
-    "author": "DoLonaAnd",
+    "author": "DoLonaAnd<doloanand@gmail.com>",
+    "keywords": [
+        "node",
+        "csv",
+        "fs"
+    ],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/DoLonaAnd/csv-load-and-process/issues"
